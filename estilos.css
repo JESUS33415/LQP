@@ -1,10 +1,23 @@
 @media (max-width: 600px) {
-  .social{
-    flex-wrap: wrap;
+  .social {
+    flex-direction: column;
   }
-  .social .social-item{
-    padding-top: 10%;
-  }
+  .social .social-item {
+    margin-bottom: 20px;
+  }
+  .section {
+    flex-direction: column;
+  }
+  .section .content {
+    margin-top: 20px;
+  }
+  .about {
+    padding: 20px;
+  }
+  .about img {
+    width: 100%;
+    height: auto;
+  }
 }
 /*principal*/
 body {
