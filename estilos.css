@@ -1,4 +1,13 @@
 @media (max-width: 600px) {
+  /* Estilos para dispositivos móviles */
+  .social {
+    flex-direction: column;
+  }
+  .social .social-item {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 600px) {
   .social {
     flex-direction: column;
   }
