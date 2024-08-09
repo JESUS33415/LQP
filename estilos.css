@@ -1,3 +1,11 @@
+@media (max-width: 600px) {
+  .social{
+    flex-wrap: wrap;
+  }
+  .social .social-item{
+    padding-top: 10%;
+  }
+}
 /* For mobile devices */
 @media (max-width: 600px) {
   /* styles here */
