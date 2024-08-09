@@ -1,3 +1,17 @@
+/* For mobile devices */
+@media (max-width: 600px) {
+  /* styles here */
+}
+
+/* For tablets */
+@media (min-width: 601px) and (max-width: 900px) {
+  /* styles here */
+}
+
+/* For desktops */
+@media (min-width: 901px) {
+  /* styles here */
+}
 /*principal*/
 body {
     font-family: 'Arial', sans-serif;
@@ -73,7 +87,7 @@ header h1 {
     min-width: 100px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
-    top: 40px;
+    top: 80px;
     right: 0;
     border-radius: 5px;
     padding: 10px;
