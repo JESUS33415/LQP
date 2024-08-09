@@ -1,3 +1,14 @@
+.gif-container {
+  width: 500px;
+  height: 300px; /* ajusta el tamaño según sea necesario */
+  margin: 20px; /* ajusta el margen según sea necesario */
+}
+.gif-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 /* Establecer tamaño para pantallas pequeñas (celulares) */
 .gif-container {
   width: 500px;
