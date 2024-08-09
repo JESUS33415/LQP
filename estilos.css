@@ -1,12 +1,19 @@
 .gif-container {
-  width: 500px;
-  height: 300px; /* ajusta el tamaño según sea necesario */
-  margin: 20px; /* ajusta el margen según sea necesario */
+  max-width: 500px; /* establecer un ancho máximo para el contenedor del gif */
+  margin: 20px auto; /* centrar el contenedor del gif */
 }
+
 .gif-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  width: 100%; /* hacer que el gif ocupe todo el ancho del contenedor */
+  height: auto; /* mantener la relación de aspecto del gif */
+  object-fit: cover; /* hacer que el gif se ajuste al contenedor */
+}
+
+/* para dispositivos móviles */
+@media (max-width: 600px) {
+  .gif-container {
+    max-width: 300px; /* reducir el ancho máximo para dispositivos móviles */
+  }
 }
 
 
