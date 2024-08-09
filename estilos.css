@@ -1,3 +1,16 @@
+.gif-container {
+  width: 500px;
+  height: 300px; /* ajusta el tamaño según sea necesario */
+  margin: 20px; /* ajusta el margen según sea necesario */
+}
+img[src="img/vid.gif"] {
+  z-index: 1; /* ajusta el z-index según sea necesario */
+}
+
+
+
+
+
 @media (max-width: 600px) {
   .social .social-item {
     margin: 0 30px; /* Aumenta el margen a 30px en dispositivos móviles */
