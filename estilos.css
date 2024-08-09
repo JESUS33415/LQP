@@ -6,20 +6,6 @@
     padding-top: 10%;
   }
 }
-/* For mobile devices */
-@media (max-width: 600px) {
-  /* styles here */
-}
-
-/* For tablets */
-@media (min-width: 601px) and (max-width: 900px) {
-  /* styles here */
-}
-
-/* For desktops */
-@media (min-width: 901px) {
-  /* styles here */
-}
 /*principal*/
 body {
     font-family: 'Arial', sans-serif;
