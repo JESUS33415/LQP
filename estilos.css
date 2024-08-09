@@ -1,15 +1,25 @@
+/* Establecer tamaño para pantallas pequeñas (celulares) */
 .gif-container {
   width: 500px;
-  height: 300px; /* ajusta el tamaño según sea necesario */
-  margin: 20px; /* ajusta el margen según sea necesario */
-}
-.gif-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 300px;
+  margin: 20px;
 }
 
+/* Establecer tamaño para pantallas medianas (tabletas) */
+@media (min-width: 768px) {
+  .gif-container {
+    width: 300px;
+    height: 200px;
+  }
+}
 
+/* Establecer tamaño para pantallas grandes (PC) */
+@media (min-width: 1200px) {
+  .gif-container {
+    width: 200px;
+    height: 150px;
+  }
+}
 
 
 
