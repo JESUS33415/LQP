@@ -1,33 +1,57 @@
-@media (max-width: 600px) {
-  /* Estilos para dispositivos móviles */
-  .social {
-    flex-direction: column;
-  }
-  .social .social-item {
-    margin-bottom: 20px;
-  }
-}
-@media (max-width: 600px) {
-  .social {
-    flex-direction: column;
-  }
-  .social .social-item {
-    margin-bottom: 20px;
-  }
-  .section {
-    flex-direction: column;
-  }
-  .section .content {
-    margin-top: 20px;
-  }
-  .about {
+/* Agrega media queries para adaptar el diseño a diferentes tamaños de pantalla */
+@media (max-width: 480px) {
+  /* Estilos para pantallas pequeñas */
+  .container {
+    width: 100%;
     padding: 20px;
   }
-  .about img {
-    width: 100%;
-    height: auto;
+  .about {
+    flex-direction: column;
   }
 }
+
+@media (max-width: 768px) {
+  /* Estilos para pantallas medianas */
+  .container {
+    width: 80%;
+    padding: 20px;
+  }
+  .about {
+    flex-direction: row;
+  }
+}
+
+/* Utiliza unidades relativas y flex-wrap para adaptar el diseño */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about {
+  background-color: #2e2e2e31;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  flex-basis: 50%;
+}
+
+/* Utiliza justify-content para centrar los elementos */
+.back-link {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+
 /*principal*/
 body {
     font-family: 'Arial', sans-serif;
