@@ -1,3 +1,25 @@
+@media (max-width: 600px) {
+  .social .social-item {
+    margin: 0 30px; /* Aumenta el margen a 30px en dispositivos móviles */
+  }
+}
+.social {
+  display: flex;
+  flex-wrap: wrap; /* Envuelve los iconos en una nueva línea */
+}
+@media (max-width: 600px) {
+  .social .social-item {
+    width: 20px; /* Reduce el ancho del icono a 20px en dispositivos móviles */
+    height: 20px; /* Reduce el alto del icono a 20px en dispositivos móviles */
+  }
+}.social-container {
+  padding: 20px; /* Agrega un padding al contenedor */
+}
+
+.social {
+  display: flex;
+  flex-wrap: wrap; /* Envuelve los iconos en una nueva línea */
+}
 .social .social-item {
   margin: 0 20px; /* Aumenta el margen a 20px */
 }
