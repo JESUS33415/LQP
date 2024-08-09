@@ -1,3 +1,24 @@
+.social .social-item {
+  margin: 0 20px; /* Aumenta el margen a 20px */
+}
+.social .social-item {
+  padding: 10px; /* Aumenta el padding a 10px */
+}
+.social {
+  display: flex;
+  gap: 20px; /* Aumenta el espacio entre los iconos a 20px */
+}
+.social .social-item {
+  width: 30px; /* Reduce el ancho del icono a 30px */
+  height: 30px; /* Reduce el alto del icono a 30px */
+}
+
+
+
+
+
+
+
 @media (max-width: 600px) {
   /* Estilos para dispositivos móviles */
   .social {
